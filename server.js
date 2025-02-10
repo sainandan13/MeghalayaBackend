@@ -28,7 +28,6 @@ db.sequelize.sync().then(() => {
 });
 
 const PORT = process.env.PORT || 5000;
-const HOST = '0.0.0.0'; // Allows external access
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
